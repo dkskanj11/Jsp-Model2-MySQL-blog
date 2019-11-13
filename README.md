@@ -16,6 +16,7 @@ CREATE TABLE user(
     email varchar(100) not null,
     address varchar(100) not null,
     userProfile varchar(200) default '/blog/img/userProfile.png',
+    emailCheck int not null default 0,
     createDate timestamp
 ) engine=InnoDB default charset=utf8;
 
@@ -49,13 +50,12 @@ CREATE TABLE reply(
 ) engine=InnoDB default charset=utf8;
 
 3. Factory 세팅하기
-https://blog.naver.com/codingspecialist/221681388208
+https://blog.naver.com/tkrldi12/221681437345
 
 4. 부트스트랩 커스터마이징 HTML파일
 WebContent/ui_sample/**
 
 5. 실행 영상
-<iframe width="640" height="360" src="https://www.youtube.com/embed/YyrSoUDwq-8" frameborder="0" gesture="media" allowfullscreen=""></iframe> -youtube주소 :# Jsp-Model2-MySQL-blog
 # Jsp-Model2-MySQL-blog
 # Jsp-Model2-MySQL-blog
 # Jsp-Model2-MySQL-blog
